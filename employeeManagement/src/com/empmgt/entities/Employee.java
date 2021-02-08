@@ -27,7 +27,7 @@ public class Employee {
 		this.name = name;
 	}
 
-	Department getDepartment() {
+	public Department getDepartment() {
 		return department;
 	}
 

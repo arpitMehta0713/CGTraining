@@ -5,11 +5,8 @@ public class Department {
 	private String deptName;
 
 	public Department(String deptId, String deptName) {
-
-	}
-
-	public Department() {
-
+		setDeptName(deptName);
+		setDeptId(deptId);
 	}
 
 	public String getDeptId() {
@@ -24,7 +21,7 @@ public class Department {
 		return deptName;
 	}
 
-	public void setDeptname(String deptName) {
+	public void setDeptName(String deptName) {
 		this.deptName = deptName;
 	}
 }
